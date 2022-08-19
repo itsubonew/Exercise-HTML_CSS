@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      :root {
+        --primary-bg: rgba(44, 62, 80, 1);
+        --secondary-bg: rgba(0, 0, 0, 0.9);
+        --box-shadow-color-1: gold;
+        --box-shadow-color-2: rgba(149, 165, 166, 0.1);
+        --box-shadow-color-3: #ecf0f1;
+        --phone-width: 350px;
+        --phone-height: 700px;
+      }
+
+      .phone {
+        position: relative;
+        left: 30px;
+        top: 30px;
+        background: var(--secondary-bg);
+        width: var(--phone-width);
+        height: var(--phone-height);
+        border-radius: 2em;
+        box-shadow: -3px -5px var(--box-shadow-color-1), inset -6px -10px var(--box-shadow-color-2);
+      }
+
+      .phone2{
+        position: absolute;
+        bottom: 105px;
+        left: 54px;
+        background: rgba(44, 62, 80, 1);
+        width: 320px;
+        height: 570px;
+        border-radius: 1%;
+      }
+
+      .speaker{
+        position: absolute;
+        top:65px;
+        left: 185px;
+        background: var(--primary-bg);
+        width: 50px;
+        height: 8px;
+        border-radius: 20%;
+      }
+
+      .circle{
+        position: absolute;
+        top: 50px;
+        left: 207px;
+        background: var(--primary-bg);
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }
+
+    .circle2{
+        position: absolute;
+        top: 60px;
+        left: 162px;
+        background: var(--primary-bg);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+ }
+
+    .button{
+        position: absolute;
+        left: 196px;
+        bottom: 56px;
+        background: var(--secondary-bg);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        box-shadow: inset 0.5px 0.5px var(--box-shadow-color-1),-0.6px -0.6px var(--box-shadow-color-3);
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="phone"></div>
+    <div class="phone2"></div>
+    <div class="speaker"></div>
+    <div class="circle"></div>
+    <div class="circle2"></div>
+    <div class="button"></div>
+  </body>
+</html>
+
